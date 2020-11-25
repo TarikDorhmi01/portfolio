@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://github.com/TarikDorhmi01/portfolio.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "protfolio": "0.0.3"
   }
 }
