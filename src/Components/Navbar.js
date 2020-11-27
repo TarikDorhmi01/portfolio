@@ -1,5 +1,5 @@
 import React from 'react'
-import './Navbar.css'
+import s from './Navbar.scss'
 import { 
         Link,
         BrowserRouter as Router,
@@ -13,14 +13,14 @@ function Navbar() {
         <div className="Navbar">
            <Router>
            <nav>
-                <ul>
-                    <li>
+                <ul className={s}>
+                    <li className="nav-li">
                     <Link to="/">Home</Link>
                     </li>
-                    <li>
+                    <li className="nav-li">
                     <Link to="/Skills">Skills</Link>
                     </li>
-                    <li>
+                    <li className="nav-li">
                     <Link to="/Projects">Projects</Link>
                     </li>
                 </ul>
