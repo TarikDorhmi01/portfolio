@@ -26,3 +26,8 @@
   width: 30px;
   height: 30px;
 }
+@media (max-width: 800px) {
+  .nav-item {
+    margin: 1rem;
+  }
+}
