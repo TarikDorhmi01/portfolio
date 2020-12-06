@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Navbar>
-        <NavItem icon> </NavItem>
+        
         <NavItem icon={<ProfileIcon/>} />
         <NavItem icon={<CogIcon/>} />
         <NavItem icon={<EducationIcon/>} />
