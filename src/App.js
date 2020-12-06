@@ -14,13 +14,18 @@ function App() {
   return (
     <div className="App">
       <Navbar>
+        <NavItem icon> </NavItem>
         <NavItem icon={<ProfileIcon/>} />
         <NavItem icon={<CogIcon/>} />
         <NavItem icon={<EducationIcon/>} />
         <NavItem icon={<PlusIcon />}>
-          
+        
         </NavItem>
       </Navbar>
+      <main>
+        <h1>Hello World !</h1>
+      </main>
+      
     </div>
       
   );

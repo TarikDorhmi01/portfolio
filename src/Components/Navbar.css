@@ -11,13 +11,3 @@
   justify-content: center;
   flex-direction: row;
 }
-@media (max-width: 800px) {
-  .navbar {
-    width: var(--nav-size);
-    height: 100vh;
-  }
-  .navbar-nav {
-    flex-direction: column;
-    justify-content: center;
-  }
-}
