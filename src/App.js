@@ -5,6 +5,7 @@ import { ReactComponent as PlusIcon } from './icons/plus.svg';
 import { ReactComponent as EducationIcon } from './icons/education.svg';
 import  Navbar from './Components/Navbar';
 import  NavItem from './Components/NavItem';
+import Footer from './Components/Footer';
 import {
   BrowserRouter as Router,
   Switch,
@@ -52,7 +53,9 @@ function App() {
             <h1>hi i'm skill set page</h1>
           </Route>
         </Switch>
-      
+      <Footer>
+
+      </Footer>
     </div>
     </Router>
       

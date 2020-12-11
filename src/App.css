@@ -5,6 +5,5 @@
   --nav-size: 70px;
   --border: 1px solid #474a4d;
   --border-radius: 8px;
-}
-@media (max-width: 800px) {
+  --bg-footer: #333333;
 }

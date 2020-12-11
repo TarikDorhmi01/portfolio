@@ -1,4 +1,3 @@
-import React ,{useState} from 'react'
 import './NavItem.css';
 import {Link} from "react-router-dom";
 
@@ -14,13 +13,7 @@ function NavItem(props) {
                   <div className="Description">
                     {props.children} 
                   </div>
-              
-                
-                
-                
-                   
-                
-           </li>
+            </li>
         </div>
     )
 }
