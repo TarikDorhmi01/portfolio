@@ -1,15 +1,25 @@
 import React ,{useState} from 'react'
 import './NavItem.css';
+import {Link} from "react-router-dom";
 
 function NavItem(props) {
-    const [open, setOpen] = useState(false);
+    
     return (
         <div>
             <li className="nav-item">
-                <a href="#" className="icon-button" onClick={()=>setOpen(!open)}>
+                <Link to={props.page} className="icon-button">
                     {props.icon}
-                </a>
-                {open && props.children}
+                </Link>
+                
+                  <div className="Description">
+                    {props.children} 
+                  </div>
+              
+                
+                
+                
+                   
+                
            </li>
         </div>
     )
