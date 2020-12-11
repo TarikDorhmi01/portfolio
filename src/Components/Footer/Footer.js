@@ -5,6 +5,7 @@ function Footer() {
     return (
         <div className="Footer">
             <h1>I'm footer</h1>
+            
         </div>
     )
 }

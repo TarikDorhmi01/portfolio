@@ -11,7 +11,7 @@ function NavItem(props) {
                 </Link>
                 
                   <div className="Description">
-                    {props.children} 
+                    <span>{props.children}</span>
                   </div>
             </li>
         </div>

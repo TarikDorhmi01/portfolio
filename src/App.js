@@ -1,11 +1,19 @@
 import './App.css';
+
 import { ReactComponent as ProfileIcon} from './icons/profile.svg'
 import { ReactComponent as CogIcon } from './icons/cog.svg';
 import { ReactComponent as PlusIcon } from './icons/plus.svg';
 import { ReactComponent as EducationIcon } from './icons/education.svg';
-import  Navbar from './Components/Navbar';
-import  NavItem from './Components/NavItem';
-import Footer from './Components/Footer';
+import  Navbar from './Components/Navbar/Navbar';
+import  NavItem from './Components/Navbar/NavItem';
+
+import Education from './Pages/Education/Education';
+import Profile from './Pages/Profile/Profile';
+import Projects from './Pages/Projects/Projects';
+import Skillset from './Pages/Skillset/Skillset';
+
+
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -21,7 +29,7 @@ function App() {
     <Router>
     <div className="App">
       <Navbar>
-        <NavItem page="/Profile" icon={<ProfileIcon/>}>
+        <NavItem page="/" icon={<ProfileIcon/>}>
           Profile
         </NavItem>
         
@@ -36,26 +44,22 @@ function App() {
         <NavItem page="/Skill-set" icon={<PlusIcon />}>
           Skill Set
         </NavItem>
-        
-
       </Navbar>
+      
       <Switch>
-          <Route path="/Profile">
-            <h1>hi i'm profile page</h1>
+          <Route exact path="/Projects">
+            <Projects />
           </Route>
-          <Route path="/Projects">
-            <h1>hi i'm projects page</h1>
+          <Route exact path="/Education">
+            <Education />
           </Route>
-          <Route path="/Education">
-            <h1>hi i'm education page</h1>
+          <Route exact path="/Skill-set">
+            <Skillset />
           </Route>
-          <Route path="/Skill-set">
-            <h1>hi i'm skill set page</h1>
+          <Route path="/">
+            <Profile />
           </Route>
         </Switch>
-      <Footer>
-
-      </Footer>
     </div>
     </Router>
       
