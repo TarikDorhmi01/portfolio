@@ -4,10 +4,13 @@ import Footer from '../../Components/Footer/Footer'
 
 function Education() {
     return (
-        <div>
+        <>
+        <div className="Education">
            <h1>it's Education page</h1>
-           <Footer></Footer>
+           
         </div>
+        <Footer></Footer>
+        </>
     )
 }
 

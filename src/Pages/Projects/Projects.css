@@ -1,0 +1,12 @@
+.Projects {
+  height: 80vh;
+  background: linear-gradient(to right, var(--bg-purple), #a41648, #800000);
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  display: flex;
+}
+.Projects h1 {
+  margin: 100px;
+  color: #f5f5f5;
+}

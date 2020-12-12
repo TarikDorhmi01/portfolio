@@ -4,10 +4,13 @@ import './Projects.css'
 
 function Projects() {
     return (
-        <div>
+        <>
+        <div className="Projects">
             <h1>it's Projects page</h1>
-            <Footer />
+            
         </div>
+        <Footer />
+        </>
     )
 }
 

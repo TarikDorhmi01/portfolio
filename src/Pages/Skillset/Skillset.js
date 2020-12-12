@@ -4,10 +4,13 @@ import './Skillset.css'
 
 function Skillset() {
     return (
-        <div>
+        <>
+        <div className="Skillset">
             <h1>it's skillset page</h1>
-            <Footer></Footer>
+            
         </div>
+        <Footer></Footer>
+        </>
     )
 }
 

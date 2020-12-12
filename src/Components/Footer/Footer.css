@@ -1,4 +1,5 @@
 .Footer {
   background-color: var(--bg-footer);
   height: 150px;
+  border-top: var(--border);
 }
