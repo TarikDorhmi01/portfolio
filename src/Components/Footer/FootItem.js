@@ -12,7 +12,7 @@ function FootItem(props) {
     return (
         <div className="FootItem">
             <ul>
-                {props.title}
+                <span id="foot-title">{props.title}</span>
                 {subTitles.map(item => (
                 <li key={item.id}>
                     {item.text}

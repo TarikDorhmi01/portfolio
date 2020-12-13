@@ -3,8 +3,10 @@
   height: 150px;
   border-top: var(--border);
 }
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .Footer {
     height: 300px;
+    justify-content: center;
+    align-items: center;
   }
 }
