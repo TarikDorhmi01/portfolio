@@ -1,13 +1,26 @@
 import './FootItem.css'
 import React from 'react'
 
-function FootItem() {
+function FootItem(props) {
+    const subTitles = [
+        {id: 1, text: "instagram"},
+        {id: 1, text: "Facebok"},
+        {id: 1, text: "instagram"},
+    ];
+    
+    
     return (
-        <div>
-            <h2>Réseaux sociaux</h2>
-                <h3></h3>
-                <h3></h3>
-                <h3></h3>
+        <div className="FootItem">
+            <ul>
+                {props.title}
+                {subTitles.map(item => (
+                <li key={item.id}>
+                    {item.text}
+                    </li>
+                ))}
+                
+            </ul>
+            
             
         </div>
     )

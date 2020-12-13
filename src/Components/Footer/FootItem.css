@@ -1,0 +1,11 @@
+.FootItem {
+  height: 100px;
+  width: 400px;
+  justify-content: center;
+  float: left;
+  margin: 1em 1em 1em 7em;
+  color: white;
+}
+.FootItem ul {
+  list-style-type: none;
+}
