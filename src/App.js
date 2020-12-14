@@ -57,7 +57,7 @@ function App() {
             <Skillset />
           </Route>
           <Route path="/">
-            <Profile />
+            <Profile sex="man" />
           </Route>
         </Switch>
     </div>

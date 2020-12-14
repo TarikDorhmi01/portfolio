@@ -8,7 +8,6 @@ function FootItem(props) {
             <div className="FootItem">
                 <ul>
                     <span id="foot-title">{props.title}</span>
-                    <span id="space"></span>
                     {props.subs.map(item => (
                         <li key={item.id}>
                            <a  href={item.link}>{item.text}</a>

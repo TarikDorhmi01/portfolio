@@ -18,6 +18,7 @@
   text-decoration: none;
 }
 #foot-title {
+  padding-bottom: 1em;
   font-weight: bolder;
   font-size: large;
 }

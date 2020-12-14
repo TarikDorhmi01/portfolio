@@ -14,9 +14,9 @@ function GlassMorphCard(props) {
             <div className="Card">
                 <span className="icon">{props.icon}</span>
                 <div className="Content">
-                    <h1>{props.greetin}</h1>
-                    <h1>{props.title}</h1>
-                    <p class="paragraph"> {props.paragraph} </p>
+                    <h1 className="greetin">{props.greetin}</h1>
+                    <h1 className="title">{props.title}</h1>
+                    <p className="paragraph"> {props.paragraph} </p>
                     
                 </div>
                 
