@@ -3,18 +3,26 @@
   width: 300px;
   justify-content: center;
   float: left;
-  margin: 2em 2em 2em 7em;
+  margin: 2em 2em 1em 7em;
   color: white;
 }
 .FootItem ul {
   list-style-type: none;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+.FootItem a {
+  text-decoration: none;
+  color: white;
+}
+.FootItem a:visited {
+  text-decoration: none;
+}
 #foot-title {
   font-weight: bolder;
+  font-size: large;
 }
 @media (max-width: 1200px) {
   .FootItem {
-    margin: 1em 7em 1em 7em;
+    margin: 1em 1em 1em 7em;
   }
 }

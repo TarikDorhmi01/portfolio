@@ -2,28 +2,41 @@ import './FootItem.css'
 import React from 'react'
 
 function FootItem(props) {
-    const subTitles = [
-        {id: 1, text: "instagram"},
-        {id: 1, text: "Facebok"},
-        {id: 1, text: "instagram"},
-    ];
-    
-    
-    return (
-        <div className="FootItem">
-            <ul>
-                <span id="foot-title">{props.title}</span>
-                {subTitles.map(item => (
-                <li key={item.id}>
-                    {item.text}
-                    </li>
-                ))}
+    let { isLinked } = props;
+    if (isLinked) {
+        return (
+            <div className="FootItem">
+                <ul>
+                    <span id="foot-title">{props.title}</span>
+                    <span id="space"></span>
+                    {props.subs.map(item => (
+                        <li key={item.id}>
+                           <a  href={item.link}>{item.text}</a>
+                         </li>
+                       
+                    ))}
+                        
+                    
+                </ul>
                 
-            </ul>
-            
-            
-        </div>
-    )
+                
+            </div>
+        );
+    } else {
+        return (
+            <div className="FootItem">
+                <ul>
+                    <span id="foot-title">{props.title}</span>
+                    {props.subs.map(item => (
+                        <li key={item.id}> 
+                                {item.text} 
+                        </li>
+                     ))}
+                  </ul>
+            </div>
+        )
+    }
+    
 }
 
 export default FootItem

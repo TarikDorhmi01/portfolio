@@ -2,11 +2,18 @@
   background-color: var(--bg-footer);
   height: 150px;
   border-top: var(--border);
+  padding-left: 200px;
 }
 @media (max-width: 1200px) {
   .Footer {
     height: 300px;
     justify-content: center;
     align-items: center;
+    padding-left: 200px;
+  }
+}
+@media (max-width: 800px) {
+  .Footer {
+    padding-left: 100px;
   }
 }
