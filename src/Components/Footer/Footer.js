@@ -11,16 +11,13 @@ function Footer() {
     const subTitles2 = [
         {id: 1, text: "tarikdorhmi@yahoo.fr"},
         {id: 2, text: "0639709193"},
-
     ]
     return (
         <div className="Footer">
             
             <FootItem  title= "Social Media" subs={subTitles1} isLinked={true}/>
             <FootItem  title= "Contact" subs={subTitles2} isLinked={false}/>
-            
-                   
-         </div>
+        </div>
     )
 }
 
