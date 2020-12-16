@@ -10,18 +10,20 @@ function Profile(props) {
     if(sex==="man"){
         return (
             <> 
-                <div class="bg">    </div>
-                <div class="bg bg2"></div>
-                <div class="bg bg3"></div>
-                <div className="Profile">
-                    <GlassMorphCard 
-                        greetin="Hi!"
-                        title="I'm Tarik"
-                        paragraph="I am Software Engineer"
-                        isGM={false}
-                        icon={<GuyIcon />}
-                    />
-                </div> 
+            <div class="bg">    </div>
+            <div class="bg bg2"></div>
+            <div class="bg bg3"></div>
+            <div className="Profile">
+                <GlassMorphCard 
+                    greetin="Hi!"
+                    title="I'm Tarik"
+                    paragraph="I am Software and Data Engineer "
+                    isGM={false}
+                    icon={<GuyIcon />}
+                 />
+            </div> 
+             
+                
     
                 <Footer />
             </>)
@@ -34,7 +36,7 @@ function Profile(props) {
                 <div className="Profile">
                     <GlassMorphCard 
                         greetin="Hi!"
-                        title="I'm Tarik"
+                        title="I'm Imane"
                         paragraph="I am Software Engineer"
                         isGM={false}
                         icon={<GirlIcon />}
