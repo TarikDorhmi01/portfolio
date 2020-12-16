@@ -22,8 +22,6 @@ function Profile(props) {
                     icon={<GuyIcon />}
                  />
             </div> 
-             
-                
     
                 <Footer />
             </>)
