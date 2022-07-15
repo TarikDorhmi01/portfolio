@@ -1,16 +1,12 @@
-import React from 'react'
-import './Navbar.css'
-
+import React from "react";
+import "./Navbar.css";
 
 function Navbar(props) {
-    return (
+  return (
     <nav className="navbar">
-      <ul className="navbar-nav">
-        { props.children }
-      </ul>
+      <ul className="navbar-nav">{props.children}</ul>
     </nav>
-    
-    )
+  );
 }
 
-export default Navbar
+export default Navbar;
